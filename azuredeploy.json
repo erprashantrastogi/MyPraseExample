@@ -37,21 +37,21 @@
     "parseAppId": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "myappid"
+      "defaultValue": "myAppId"
     },
     "parseMasterKey": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "mymasterkey"
+      "defaultValue": "myMasterKey"
     },
     "parseServerUrl": {
       "type": "string",
       "minLength": 1,
-      "defaultValue": "https://api.parse.com"
+      "defaultValue": "http://yourappname.azure.com/parse"
     },
     "repoURL": {
       "type": "string",
-      "defaultValue": "https://github.com/erprashantrastogi/MyPraseExample.git",
+      "defaultValue": "https://github.com/parseplatform/parse-server-example.git",
       "metadata": {
         "description": "The URL for the GitHub repository that contains the project to deploy."
       }
